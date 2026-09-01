@@ -1,11 +1,10 @@
 package iniciante.ex1001;
 
 import java.util.Scanner;
-import java.io.IOException;
 
 public class Main {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
         int A, B, X;

@@ -1,3 +1,5 @@
+package iniciante.ex1002;
+
 import java.util.Locale;
 import java.util.Scanner;
 

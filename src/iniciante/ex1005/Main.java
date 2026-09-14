@@ -7,10 +7,14 @@ public class Main {
     public static void main (String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
-        double A, B, total;
+        double A, B, peso1, peso2, pesoTotal, total;
         A = sc.nextDouble();
         B = sc.nextDouble();
-        total = (A + B) / 2;
+        peso1 = A * 3.5;
+        peso2 = B * 7.5;
+        pesoTotal = 11;
+
+        total = (peso1 + peso2) / pesoTotal;
 
         System.out.printf("MEDIA = %.5f%n", total);
         sc.close();

@@ -18,7 +18,6 @@ public class Main {
         qntd2 = sc.nextInt();
         valor2 = sc.nextDouble();
 
-        //calculo
         total = (qntd1 * valor1) + (qntd2 * valor2);
 
         System.out.printf("VALOR A PAGAR: R$ %.2f%n", total);
